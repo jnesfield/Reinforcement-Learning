@@ -4,5 +4,5 @@
 ## last edited: 2/23/2022
 
 ### PURPOSE:
-the purposed of this folder is to show a solutiob for the k arm bandit problem
+the purposed of this folder is to show a solution for the k arm bandit problem
 
