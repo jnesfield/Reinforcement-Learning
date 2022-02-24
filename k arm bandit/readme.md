@@ -1,4 +1,4 @@
-# k arm bandit problem
+# k-armed bandit problem
 
 ## started: 2/23/2022
 ## last edited: 2/23/2022
