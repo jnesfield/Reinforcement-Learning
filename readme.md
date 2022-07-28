@@ -25,5 +25,6 @@ pip3 install sklearn<br>
 pip3 install gym==0.19.0<br>
 pip3 install gym[Box2D]<br>
 pip3 install scikit-build<br>
+pip3 install opencv-python==4.0.0.21<br>
 pip3 install gym[atari]==0.19.0<br>
 pip3 install matplotlib<br>
