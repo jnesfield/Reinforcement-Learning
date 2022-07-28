@@ -15,15 +15,15 @@ There is homebrew environment set ups and also application in gym package now to
 
 ##set up env in ubuntu:
 
-sudo apt-get update
-sudo apt-get install python3.6
-sudo apt install python3-pip
-sudo apt-get -y install cmake
-sudo apt install zlib1g-dev
-sudo apt-get install p7zip-full
-pip3 install numpy
-pip3 install sklearn
-pip3 install gym==0.19.0
-pip3 install gym[Box2D]
-pip3 install gym[atari]
-pip3 install matplotlib
+sudo apt-get update<br>
+sudo apt-get install python3.6<br>
+sudo apt install python3-pip<br>
+sudo apt-get -y install cmake<br>
+sudo apt install zlib1g-dev<br>
+sudo apt-get install p7zip-full<br>
+pip3 install numpy<br>
+pip3 install sklearn<br>
+pip3 install gym==0.19.0<br>
+pip3 install gym[Box2D]<br>
+pip3 install gym[atari,accept-rom-license]==0.19.0<br>
+pip3 install matplotlib<br>
