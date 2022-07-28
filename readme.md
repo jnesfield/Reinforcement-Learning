@@ -1,7 +1,7 @@
 # Reinforcement Learning
 
 ## started: 2/23/2022
-## last edited: 5/15/2022
+## last edited: 7/28/2022
 
 ## By: James Nesfield
 
@@ -14,7 +14,6 @@ There is homebrew environment set ups and also application in gym package now to
 - follow these steps: https://lcipolina.github.io/blog/2020/01/17/Install_gym_AI_on_Windows
 
 ##set up env in ubuntu:
-
 sudo apt-get update<br>
 sudo apt-get install python3.6<br>
 sudo apt install python3-pip<br>
@@ -25,5 +24,6 @@ pip3 install numpy<br>
 pip3 install sklearn<br>
 pip3 install gym==0.19.0<br>
 pip3 install gym[Box2D]<br>
-pip3 install gym[atari,accept-rom-license]==0.19.0<br>
+pip3 install scikit-build<br>
+pip3 install gym[atari]==0.19.0<br>
 pip3 install matplotlib<br>
