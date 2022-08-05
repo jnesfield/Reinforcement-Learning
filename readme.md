@@ -10,10 +10,7 @@ The purpose of this repo is to store and publicly display my exploratory work in
 
 There is homebrew environment set ups and also application in gym package now too...
 
-### Env Setup w/ Conda:
-- follow these steps: https://lcipolina.github.io/blog/2020/01/17/Install_gym_AI_on_Windows
-
-##set up env in ubuntu:
+### set up env in ubuntu:<br>
 sudo apt-get update<br>
 sudo apt-get install python3.7<br>
 sudo apt install python3-pip<br>
