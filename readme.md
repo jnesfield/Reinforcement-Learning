@@ -15,7 +15,7 @@ There is homebrew environment set ups and also application in gym package now to
 
 ##set up env in ubuntu:
 sudo apt-get update<br>
-sudo apt-get install python3.6<br>
+sudo apt-get install python3.7<br>
 sudo apt install python3-pip<br>
 sudo apt-get -y install cmake<br>
 sudo apt install zlib1g-dev<br>
