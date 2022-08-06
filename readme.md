@@ -11,6 +11,7 @@ The purpose of this repo is to store and publicly display my exploratory work in
 There is homebrew environment set ups and also application in gym package now too...
 
 ### set up env in ubuntu:<br>
+#### get ubuntu 18.04 lts
 sudo apt-get update<br>
 sudo apt-get install python3.7<br>
 sudo apt install python3-pip<br>
@@ -25,3 +26,4 @@ pip3 install scikit-build<br>
 pip3 install opencv-python==4.0.0.21<br>
 pip3 install gym[atari]==0.19.0 --no-cache-dir<br>
 pip3 install matplotlib<br>
+
