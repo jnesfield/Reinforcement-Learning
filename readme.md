@@ -28,7 +28,9 @@ pip3 install gym[atari]==0.19.0 --no-cache-dir<br>
 pip3 install matplotlib<br>
 
 or just not be silly and use a docker image that already works:<br>
+```
 docker pull jxu305/openai_gym_docker:v1.0 <br>
 
-docker run -p <local port>:8888 -it -v local directory to mount:target directory jxu305/openai_gym_docker:v1.0<br>
+docker run -p <local port>:8888 -it -v <local directory to mount>:<target directory> jxu305/openai_gym_docker:v1.0
+```
 
