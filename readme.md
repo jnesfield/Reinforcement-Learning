@@ -27,3 +27,5 @@ pip3 install opencv-python==4.0.0.21<br>
 pip3 install gym[atari]==0.19.0 --no-cache-dir<br>
 pip3 install matplotlib<br>
 
+or just not be silly and use a docker image that already works:<br>
+https://github.com/jianxu305/openai-gym-docker
