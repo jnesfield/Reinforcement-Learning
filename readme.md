@@ -29,10 +29,15 @@ pip3 install matplotlib<br>
 
 or just not be silly and use a docker image that already works:<br>
 ```
-docker pull jxu305/openai_gym_docker:v1.0 <br>
+docker pull jxu305/openai_gym_docker:v1.0 
 
 docker run -p <local port>:8888 -it -v <local directory to mount>:<target directory> jxu305/openai_gym_docker:v1.0
 
 docker run -p 8889:8888 -it jxu305/openai_gym_docker:v1.0
 ```
 
+consider using ubuntu 18.04 lts instead of windows os... windows does not let you pass along gpu access to docker without complicated steps....
+
+to install docker with nvidia gpu support first install the right driver then docker with the nvidia tool kit
+- https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/
+- https://docs.nvidia.com/ai-enterprise/deployment-guide/dg-docker.html
