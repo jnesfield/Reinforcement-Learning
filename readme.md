@@ -41,3 +41,9 @@ consider using ubuntu 18.04 lts instead of windows os... windows does not let yo
 to install docker with nvidia gpu support first install the right driver then docker with the nvidia tool kit
 - https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/
 - https://docs.nvidia.com/ai-enterprise/deployment-guide/dg-docker.html
+
+but the originally referenced does not allow you to use gpu resouces.... fail
+
+
+thus build a new image using the dockerfile here
+
