@@ -45,5 +45,21 @@ to install docker with nvidia gpu support first install the right driver then do
 but the originally referenced does not allow you to use gpu resouces.... fail
 
 
-thus build a new image using the dockerfile here
+thus build a new image using the dockerfile here<br>
+download the docker file and run this:
+
+```
+sudo docker build  -f /home/james/docker_aigym/DockerFile /home/james/docker_aigym -t james_n_aigym:0.1
+```
+/home/james/docker_aigym/DockerFile is where the docker file is
+
+/home/james/docker_aigym is the context
+
+-t james_n_aigym:0.1 specifies the name you will use to run the image later thus:
+
+docker run james_n_aigym:1.0
+
+ideally use something like this to run
+
+docker run -p 8888:8888 -it -v <local directory to mount>:<target directory> james_n_aigym:1.0
 
