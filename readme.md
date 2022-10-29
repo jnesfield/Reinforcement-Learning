@@ -57,9 +57,9 @@ sudo docker build  -f /home/james/docker_aigym/DockerFile /home/james/docker_aig
 
 -t james_n_aigym:0.1 specifies the name you will use to run the image later thus:
 
-docker run james_n_aigym:1.0
+docker run james_n_aigym:0.1
 
 ideally use something like this to run
 
-docker run -p 8888:8888 -it -v <local directory to mount>:<target directory> james_n_aigym:1.0
+docker run -p 8888:8888 -it -v <local directory to mount>:<target directory> james_n_aigym:0.1
 
