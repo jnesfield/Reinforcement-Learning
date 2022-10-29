@@ -61,5 +61,5 @@ docker run james_n_aigym:0.1
 
 ideally use something like this to run
 
-docker run -p 8888:8888 -it -v <local directory to mount>:<target directory> james_n_aigym:0.1
+docker run -p 8888:8888 -it --gpus all -v <local directory to mount>:/tf/mystuff/ james_n_aigym:0.1
 
