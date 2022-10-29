@@ -21,4 +21,5 @@ RUN pip install \
 # Needed for some environments
 RUN pip install swig
 RUN pip install box2d-py atari_py pystan
+RUN pip install gym[accept-rom-license]
 RUN pip install gym[atari] gym[all]
