@@ -23,3 +23,4 @@ RUN pip install swig
 RUN pip install box2d-py atari_py pystan
 RUN pip install gym[accept-rom-license]
 RUN pip install gym[atari] gym[all]
+RUN pip install scikit-learn scipy statsmodels xgboost lightgbm
