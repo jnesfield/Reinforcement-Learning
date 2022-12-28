@@ -40,4 +40,14 @@ docker run james_n_aigym:0.1
 docker run -p 8888:8888 -it --gpus all -v <local directory to mount>:/tf/mystuff/ james_n_aigym:0.1
 ```
 
+# some learning resources
+
+http://incompleteideas.net/
+
+https://stable-baselines.readthedocs.io/en/master/
+
+https://stable-baselines.readthedocs.io/en/master/guide/rl.html
+
+https://spinningup.openai.com/en/latest/
+
 # good luck!
