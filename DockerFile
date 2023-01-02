@@ -28,4 +28,4 @@ RUN pip install scikit-learn scipy statsmodels xgboost lightgbm scikit-image
 RUN pip install opencv-python
 
 #pytorch because ya i learned tensorflow has some opportunities for improvement
-RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116pip install torch
+RUN pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
