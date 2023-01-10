@@ -1,6 +1,6 @@
 # Function Approximation 1
 
-## started: 2/23/2022
+## started: 8/17/2022
 ## last edited: 1/10/2023
 
 ### PURPOSE:
@@ -13,3 +13,5 @@ This also includes tiling found here byy Sutton:
 http://incompleteideas.net/tiles/tiles3.html
 
 Cart Pole notebook is a second attempt at appication of function approximation approaching the cart pole problem using radail basis functions to help engineer features.
+
+From here we get into more 'fun' methods like vanilla dqn, dqn for atari, policy gradients, a2c and other fun things.
