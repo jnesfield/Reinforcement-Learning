@@ -1,7 +1,7 @@
 # Reinforcement Learning
 
 ## started: 2/23/2022
-## last edited: 10/30/2022
+## last edited: 1/10/2023
 
 ## By: James Nesfield
 
